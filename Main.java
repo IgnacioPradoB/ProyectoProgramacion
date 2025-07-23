@@ -5,7 +5,7 @@ public class Main {
         int opcion = 0;
 
         do {
-            String entrada = JOptionPane.showInputDialog(null,
+            String entrada = JOptionPane.showInputDialog(
                 "===== Usuarios ChefJoven =====\n" +
                 "1. Agregar usuario\n" +
                 "2. Mostrar usuarios\n" +
