@@ -1,24 +1,24 @@
 public class Estudiante {
-    private int id;
     private String nombre;
     private String apellido;
+    private String provincia;
+    private String direccion;
+    private String telefono;
+    private String correo;
+    private String encargado;
     private String taller;
     private boolean activo;
 
     public Estudiante() {
-        this.id = 0;
         this.nombre = "";
         this.apellido = "";
+        this.provincia = "";
+        this.direccion = "";
+        this.telefono = "";
+        this.correo = "";
+        this.encargado = "";
         this.taller = "";
         this.activo = true;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getNombre() {
@@ -37,6 +37,46 @@ public class Estudiante {
         this.apellido = apellido;
     }
 
+    public String getProvincia() {
+        return provincia;
+    }
+
+    public void setProvincia(String provincia) {
+        this.provincia = provincia;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+    public String getEncargado() {
+        return encargado;
+    }
+
+    public void setEncargado(String encargado) {
+        this.encargado = encargado;
+    }
+
     public String getTaller() {
         return taller;
     }
@@ -52,5 +92,4 @@ public class Estudiante {
     public void setActivo(boolean activo) {
         this.activo = activo;
     }
-    
 }
