@@ -3,13 +3,11 @@ private String id;
 private String nombre;
 private String descripcion;
 
-  public Especialidad(String id, String nombre, String descripcion) {
-        this.id = id;
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-  
-}
-
+  public Especialidad() {
+        this.id = "";
+        this.nombre = "";
+        this.descripcion = "";
+  }
     public String getId() {
         return id;
     }
@@ -33,4 +31,5 @@ private String descripcion;
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
+
 }
