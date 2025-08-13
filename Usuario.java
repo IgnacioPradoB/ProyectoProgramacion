@@ -1,18 +1,18 @@
 public class Usuario {
-    String nombre_completo;
-    String nombre_usuario;
-    String contrasena;
-    String rol;
-    String estado_de_cuenta;
-    boolean tiene_clases;
+    private String nombre_completo;
+    private String nombre_usuario;
+    private String contrasena;
+    private String rol;
+    private String estado_de_cuenta;
+    private boolean tiene_clases;
 
-    public Usuario(String nombre_completo, String nombre_usuario, String contrasena, String rol, boolean tiene_clases) {
-        this.nombre_completo = nombre_completo;
-        this.nombre_usuario = nombre_usuario;
-        this.contrasena = contrasena;
-        this.rol = rol;
+    public Usuario() {
+        this.nombre_completo = "";
+        this.nombre_usuario = "";
+        this.contrasena = "";
+        this.rol = "";
         this.estado_de_cuenta = "Activo";
-        this.tiene_clases = tiene_clases;
+        this.tiene_clases = true;
     }
 
     public String getNombre_completo() {
