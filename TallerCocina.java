@@ -1,17 +1,16 @@
 public class TallerCocina {
     private String nombreTaller;
-    private String especialidad;
+    private String especialidad; 
     private String descripcion;
     private boolean activo;
 
-    public TallerCocina(String nombreTaller, String especialidad, String descripcion) {
-        this.nombreTaller = nombreTaller;
-        this.especialidad = especialidad;
-        this.descripcion = descripcion;
+    public TallerCocina() {
+        this.nombreTaller = "";
+        this.especialidad = "";
+        this.descripcion = "";
         this.activo = true;
     }
 
-    // Getters y Setters
     public String getNombreTaller() {
         return nombreTaller;
     }
