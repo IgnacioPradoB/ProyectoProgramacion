@@ -7,7 +7,7 @@ private String descripcion;
         this.id = "";
         this.nombre = "";
         this.descripcion = "";
-  }
+    }
     public String getId() {
         return id;
     }
@@ -31,5 +31,4 @@ private String descripcion;
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-
 }
